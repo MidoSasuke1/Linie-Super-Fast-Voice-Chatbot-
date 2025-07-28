@@ -16,9 +16,9 @@ Linie is a real-time voice chatbot that listens, thinks, and replies in a **cold
 
 ---
 
-## 🛠️ Installation Guide : Do it in order to avoid errors
+## 🛠️ Installation Guide : Do it in order to avoid errors and USE POWERSHELL
 
-### 🔹 1. Create the Conda Environment
+### 🔹 1. Create the Conda Environment ( Use Powershell) 
 
 ```bash
 conda create -n chatbot python=3.10 --yes
