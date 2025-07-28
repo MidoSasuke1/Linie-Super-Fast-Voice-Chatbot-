@@ -162,6 +162,16 @@ You can Replace this file "Chatbot.py" by this "chatbot Backup.py" which is usin
 the generation will be (0.5 - 1.5) seconds longer.
 
 
+## 📌 TODO / Future Improvements
+🔹 GUI or web interface
+🔹 Emotion or tone control in speech synthesis
+🔹Add mute/unmute 
+🔹Add Push to Talk
+🔹Make a 3D model
+🔹Option to change voice
+🔹add history
+🔹multilingual 
+🔹
 ## 📦 Credits
 
 - [Coqui TTS (XTTS v2)](https://github.com/coqui-ai/TTS)
