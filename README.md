@@ -62,6 +62,9 @@ Place these in the **same folder as `chatbot.py`**:
 - ✅ `my_voice.wav` — your cloned voice sample (30–60s recommended)
 
 
+## You can download the LLM from this Huggingface Link:
+https://huggingface.co/codegood/gemma-2b-it-Q4_K_M-GGUF
+
 
 ## 🚀 Run the Bot
 
