@@ -145,7 +145,7 @@ python chatbot.py
 
 The Line of Code to change:
 ```
-VAD_SILENCE_TIMEOUT = 300  #the time the ai will wait after you stop talking before it sends your speech to LLM
+VAD_SILENCE_TIMEOUT = 300 
 ```
 
 
