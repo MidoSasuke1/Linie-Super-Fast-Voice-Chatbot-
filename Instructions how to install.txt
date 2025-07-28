@@ -1,0 +1,57 @@
+#open powershell not cmd  AND DO STEPS IN ORDER
+
+1.create virtual environment
+
+conda create -n chatbot python=3.10 --yes
+conda activate chatbot
+
+
+2.  Install System-Level Libraries:
+
+conda install -c conda-forge cudnn portaudio --yes
+
+
+
+3.Set the build flags for llama-cpp-python:
+
+$env:CMAKE_ARGS = "-DGGML_CUDA=on"
+$env:FORCE_CMAKE = "1"
+
+
+4.Install All Other Packages
+
+pip install -r requirements.txt
+
+
+
+5.Install PyTorch (GPU Version) and make sure cuda is insatalled:
+
+pip install torch==2.1.2+cu121 torchvision==0.16.2+cu121 torchaudio==2.1.2+cu121 --index-url https://download.pytorch.org/whl/cu121
+
+
+
+6. download one of the following models and put it in the same folder of the project and make SURE of the name
+ (sometimes there will be a dot in the name remove it) make sure to edit the name in chatbot.py too.
+
+    The models from huggingsface:
+
+
+gemma-2b-it-Q4_K_M.gguf    #this is best, fast and good in following prompts so far
+
+Phi-3-mini-4k-instruct-q4.gguf    #this a little slow 
+
+phi-2-Q4_K_M.gguf      #this one is fast but a little dumb.
+
+
+
+6. you can replace my_voice.wav with other voice to change the voice of the character.
+-It basically clone my_voice.wav and use it to generate sound with the same voice tone.
+-Recommended .wav length is 30 - 60s. you can make the voice sample longer than 60s to 
+increase quality but it will take longer to generate the voice.
+
+
+
+
+
+
+

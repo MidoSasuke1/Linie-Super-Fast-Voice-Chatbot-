@@ -1,0 +1,14 @@
+# --- Final, Bulletproof requirements.txt for the Chatbot Project ---
+
+TTS==0.22.0
+faster-whisper==0.10.0  # <-- THE CRITICAL CHANGE IS HERE
+llama-cpp-python==0.2.79
+onnxruntime-gpu==1.16.3
+numpy==1.22.0
+scipy==1.11.4
+numba==0.58.1
+opencv-python==4.8.1.78
+sounddevice==0.4.6
+webrtcvad-wheels
+pyaudio
+emoji
