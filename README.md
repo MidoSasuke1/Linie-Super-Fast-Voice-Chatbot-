@@ -1,5 +1,5 @@
 #                     ### PLEASE READ CAREFULLY 
-# 🧊 Linie - Cold Personal Assistant (Voice Chatbot)   "" Yes She is from Frieren Anime ""
+# 🧊 Linie - Cold Personal Assistant (Voice Chatbot) 
 
 Linie is a real-time voice chatbot that listens, thinks, and replies in a **cold, sarcastic** tone using a cloned voice. Powered by local LLMs and TTS/STT models — no API keys needed.
 
