@@ -9,6 +9,6 @@ scipy==1.11.4
 numba==0.58.1
 opencv-python==4.8.1.78
 sounddevice==0.4.6
-webrtcvad-wheels
-pyaudio
-emoji
+webrtcvad-wheels==2.0.14
+PyAudio==0.2.14
+emoji==2.14.1
