@@ -2,7 +2,7 @@
 
 TTS==0.22.0
 faster-whisper==0.10.0  # <-- THE CRITICAL CHANGE IS HERE
-llama-cpp-python==0.2.79
+llama-cpp-python
 onnxruntime-gpu==1.16.3
 numpy==1.22.0
 scipy==1.11.4
