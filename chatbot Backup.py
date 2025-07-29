@@ -37,7 +37,7 @@ class SuppressTTSOutput:
 # --- Configuration ---
 MODEL_PATH = r".\gemma-2b-it-Q4_K_M.gguf"
 VOICE_TO_CLONE_PATH = r".\my_voice.wav"
-WHISPER_MODEL_SIZE = "base.en"
+WHISPER_MODEL_SIZE = "base"
 VAD_SILENCE_TIMEOUT = 300
 TTS_SPEED = 1.25
 AUDIO_FILE = "user_input.wav"
