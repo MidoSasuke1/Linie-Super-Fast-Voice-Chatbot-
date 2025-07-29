@@ -1,5 +1,5 @@
 #                     ### PLEASE READ CAREFULLY 
-# 🧊 Linie - Cold Personal Assistant (Voice Chatbot) 
+# 🧊 Linie - Cold Personal Assistant (Voice Chatbot) "" Frieren Anime ""
 
 Linie is a real-time voice chatbot that listens, thinks, and replies in a **cold, sarcastic** tone using a cloned voice. Powered by local LLMs and TTS/STT models — no API keys needed.
 
@@ -136,8 +136,8 @@ Compatible `.gguf` models include:
 
 - Since the goal was to shrink the delay time there're few downsides. The AI is always listening so when you start speaking and
   it recognize your speech it will start proceeding, the moment you stop talking there's a delay time in which your speech will
-  be sent to the LLM to be processed (the Time is 300 milliseconds), this consider a very short time by stander. So you need to eighter not
-  to pause while you speaking or increase this time to a higher value like (1000 = 1 second) or (3000 = 3 seconds), so the ai will wait 3 seconds
+  be sent to the LLM to be processed (the Time is 300 milliseconds), this consider a very short time by standards. So you need to eighter NOT
+  to pause while you speaking or increase this time to a higher value like (1000 = 1 second) or (3000 = 3 seconds), so the AI will wait 3 seconds
   or so before grap that chunk of audio.
 
   Edit this file:
@@ -156,10 +156,10 @@ VAD_SILENCE_TIMEOUT = 300
 - When She (AI) starts speaking you will notice a small cut in the sound at the beginning (Fracture of second), and that's normal
   since the voice is being sent as a stream of chunks, in other words instead of generating the whole audio then we play it;
   we generate the first one or two words and play it immediatly while the rest of the audio is being generated.
- It's onlly at the start, could get annoying but it's a speed/quality trade-off.
+  It's onlly at the start, could get annoying but it's a speed/quality trade-off.
 
-You can Replace this file "Chatbot.py" by this "chatbot Backup.py" which is using different method for clean voice but
-the generation will be (0.5 - 1.5) seconds longer.
+- You can Replace this file "Chatbot.py" by this "chatbot Backup.py" which is using different method for clean voice but
+  the generation will be (0.5 - 1.5) seconds longer.
 
 
 ## 📌 TODO / Future Improvements
