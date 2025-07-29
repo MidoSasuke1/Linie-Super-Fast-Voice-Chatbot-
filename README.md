@@ -81,21 +81,21 @@ python chatbot.py
 
 ## 🗣️ Whisper Model Options
 
-In `chatbot.py`, you can change whisper model by tweaking the following line of code. "base.en" model is recommended for balance quality and speed,
-"Large-v3" is slower but has a very high quality to capture voice, "tiny.en" is super fast but low quality.
+In `chatbot.py`, you can change whisper model by tweaking the following line of code. "base" model is recommended for balance quality and speed,
+"Large-v3" is slower but has a very high quality to capture voice, "tiny" is super fast but low quality.
 
 #The line of code to tweak:
 ```python
-WHISPER_MODEL_SIZE = "base.en"
+WHISPER_MODEL_SIZE = "base"
 ```
 
-#The available models for quality and language:
+#The available models for quality and language: (Recommended use "base" instead of "base.en")
 
 **English-only models**: recommended us 'base.en' for fast response. You can use 'tiny.en' for fastest response but it has some artifacts as mentioned.
 - `tiny.en`, `base.en`, `small.en`, `medium.en`, `large-v3`, `large-v2`
 
 **Multilingual** you can use these models but the ai will response in english only. This is good for translation.
-The code need a very little of modification to response in Japanese but that's for another day:
+The code need a little modify to response in Japanese but that's for another day:
 - `tiny`, `base`, `small`, `medium`, `large-v3`, `large-v2`
 
 ---
